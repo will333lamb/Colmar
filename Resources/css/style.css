@@ -1,0 +1,94 @@
+
+/* Header Section */
+
+.main-header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    display: inline-block;
+    top: 0px; /* This is to make the header fixed at top when we scroll */
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-header span{
+    display: inline-block;
+    padding-top: 22px;
+    font-weight: bold;
+}
+
+.logo{
+    float: left;
+    height: 32px;
+    padding: 16px 0px 16px 24px;
+    
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+    margin 0 auto;
+    padding-right: 24px;
+    
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.navigation a li{
+
+    display: table-cell;
+    height: 64px;
+    
+}
+
+/* Learn something new each day section */
+
+.learn-everyday{
+    height: fit-content;
+    width: 100%;
+    margin: 32px auto;
+    display: inline-flex;
+    background-color: lightgray;
+    padding-top: 32px;
+    color: darkslategray;
+}
+
+.learn-everyday img{
+    width: 60%;
+    padding: 32px 24px;
+    height: fit-content;
+}
+
+.text-container1{
+    width: 100%;
+    height: fit-content;
+    font-family: sans-serif;
+    display: block;
+    position: relative;
+    top: 300px;
+    
+}
+
+.button {
+    background-color: darkslategray; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 80%;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+
+}
+.button:hover{
+    background-color: grey;
+}
