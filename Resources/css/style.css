@@ -1,5 +1,5 @@
 
-/* Header Section */
+/* Header Section//////////////////////////////////////////// */
 
 .main-header{
     background-color: white;
@@ -10,6 +10,7 @@
     top: 0px; /* This is to make the header fixed at top when we scroll */
     color: black;
     font-family: 'Montserrat', sans-serif;
+    z-index: 10;
 }
 
 .main-header span{
@@ -48,39 +49,49 @@
     
 }
 
-/* Learn something new each day section */
+/* Learn something new each day section ////////////////////////////////////////////////////////////////////////// */
 
-.learn-everyday{
+.container1{
     height: fit-content;
     width: 100%;
-    margin: 32px auto;
     display: inline-flex;
     background-color: lightgray;
-    padding-top: 32px;
+    padding-top: 50px;
     color: darkslategray;
 }
+/* Left Side */
 
-.learn-everyday img{
+.left-side-container1{
     width: 60%;
+    height: fit-content;
+}
+
+.left-side-container1 img{
+    width: 100%;
     padding: 32px 24px;
     height: fit-content;
 }
+/* Right side*/
 
-.text-container1{
-    width: 100%;
+.right-side-container1{
+    width: 40%;
     height: fit-content;
+    display: block; 
+    padding-left: 24px;
+}
+
+.right-side-container1-text{
     font-family: sans-serif;
-    display: block;
+    padding-left: 24px;
     position: relative;
     top: 300px;
-    
 }
 
 .button {
     background-color: darkslategray; 
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 8px 32px;
     text-align: center;
     text-decoration: none;
     width: 80%;
@@ -91,4 +102,59 @@
 }
 .button:hover{
     background-color: grey;
+}
+
+/* Keep practicing section ////////////////////////////////////////////////////*/
+
+.container2{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    background-color: white;
+}
+/*Left side*/
+
+.left-side-container2{
+    display: block;
+    width: 60%;
+    padding: 32px 24px;
+    font-family: sans-serif;
+    color: darkslategray;
+}
+
+.left-side-container2 img{
+    width: 100%;
+    height: fit-content;
+    
+}
+/* Right side*/
+
+.right-side-container2{
+    display: block;
+    width: 40%;
+    border-left: lightgray 1px solid;
+
+}
+
+.boxes2{
+    display: inline-flex;
+    padding: 32px 0px 32px 24px;
+    border-bottom: lightgray 3px solid;
+    width: 100%;
+}
+
+.boxes2:hover{
+    background-color: lightgray;
+}
+
+.images2{
+    width: 35%;
+    height: auto;
+}
+
+.boxes2-text{
+    display: block;
+    font-family: sans-serif;
+    color: darkslategray;
+    padding: 8px 16px;
 }
