@@ -81,7 +81,7 @@
 }
 
 .right-side-container1-text{
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding-left: 24px;
     position: relative;
     top: 300px;
@@ -97,7 +97,7 @@
     width: 80%;
     font-size: 20px;
     border-radius: 10px;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 .button:hover{
@@ -111,6 +111,7 @@
     height: auto;
     display: inline-flex;
     background-color: white;
+    padding-bottom: 32px;
 }
 /*Left side*/
 
@@ -118,7 +119,7 @@
     display: block;
     width: 60%;
     padding: 32px 24px;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: darkslategray;
 }
 
@@ -154,7 +155,15 @@
 
 .boxes2-text{
     display: block;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: darkslategray;
     padding: 8px 16px;
+}
+
+/* Start learning section ////////////////////////////////////////////////////*/
+
+.container3{
+    width: 100%;
+    height: auto;
+    background-color: lightgray;
 }
