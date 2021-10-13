@@ -1,6 +1,12 @@
 
 /* Header Section//////////////////////////////////////////// */
 
+a{
+    color: black;
+}
+
+a:hover{color: darkslategray}
+
 .main-header{
     background-color: white;
     position: fixed;
@@ -48,6 +54,8 @@
     height: 64px;
     
 }
+
+
 
 /* Learn something new each day section ////////////////////////////////////////////////////////////////////////// */
 
@@ -166,4 +174,38 @@
     width: 100%;
     height: auto;
     background-color: lightgray;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    padding-top: 32px;
+
+    
+}
+
+.container3-top-row{
+    display: flex; /* Went for flex here instead of inline-flex as that wouldn't line up frustatingly */
+    padding: 0px 72px;
+}
+
+.container3-bottom-row{
+    display: flex;
+    padding: 0px 72px;
+    padding-bottom: 32px;
+}
+
+.boxes3{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    margin: 16px 16px;
+    height: auto;
+    width: 100%;
+    
+}
+
+.boxes3 h3, .boxes3 h4{
+    padding: 16px 16px;
+}
+
+.images3{
+    width: 100%;
+    height: auto;
 }
