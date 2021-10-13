@@ -209,3 +209,14 @@ a:hover{color: darkslategray}
     width: 100%;
     height: auto;
 }
+
+/* Thesis Exhibit section ////////////////////////////////////////////////////*/
+
+.container4{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    padding-top: 32px;
+}
