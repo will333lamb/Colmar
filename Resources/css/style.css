@@ -87,15 +87,12 @@ a:hover{color: darkslategray}
     height: fit-content;
     display: block; 
     padding-left: 24px;
-}
-
-.right-side-container1-text{
     font-family: 'Montserrat', sans-serif;
-    padding-left: 24px;
-    position: relative;
-    top: 300px;
+    margin-left: 24px;
+    padding-top: 15%;
 }
 
+    
 .button {
     background-color: darkslategray; 
     border: none;
@@ -271,6 +268,9 @@ a:hover{color: darkslategray}
     padding: 8px 16px;
 }
 
+/* Footer section ////////////////////////////////////////////////////*/
+
+
 .left-side-footer{
     float: left;
     font-family: 'Montserrat', sans-serif;
@@ -286,4 +286,5 @@ footer{
     border-top: darkslategrey solid 1px;
     margin-bottom: 0;
     padding-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
 }
