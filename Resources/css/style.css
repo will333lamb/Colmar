@@ -37,6 +37,7 @@ a:hover{color: darkslategray}
     height: 100%;
     margin 0 auto;
     padding-right: 24px;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
@@ -228,6 +229,7 @@ a:hover{color: darkslategray}
     font-family: montserrat, sans-serif;
     color: darkslategray;
     padding-top: 32px;
+    
 }
 
 .left-side-container4{
@@ -267,4 +269,21 @@ a:hover{color: darkslategray}
     font-family: 'Montserrat', sans-serif;
     color: darkslategray;
     padding: 8px 16px;
+}
+
+.left-side-footer{
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    color: darkslategray;
+    padding: 16px 24px;
+}
+
+.right-side-footer{
+    float: right;
+}
+
+footer{
+    border-top: darkslategrey solid 1px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
