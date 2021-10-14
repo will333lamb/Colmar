@@ -216,7 +216,55 @@ a:hover{color: darkslategray}
     width: 100%;
     height: auto;
     background-color: white;
-    text-align: center;
     font-family: 'montserrat', sans-serif;
     padding-top: 32px;
+    display: inline-flex;
+    color: darkslategray;
+}
+
+.container4-heading{
+    text-align: center;
+    display: block;
+    font-family: montserrat, sans-serif;
+    color: darkslategray;
+    padding-top: 32px;
+}
+
+.left-side-container4{
+    width: 60%;
+    height: fit-content;
+    padding: 32px 24px;
+}
+
+.left-side-container4 video{
+    width: 100%;
+    height: auto;
+}
+.right-side-container4{
+    display: block;
+    width: 40%;
+    height: auto;
+
+}
+
+.boxes4{
+    display: inline-flex;
+    padding: 32px 0px 32px 24px;
+    width: 100%;
+}
+
+.boxes4:hover{
+    background-color: lightgray;
+}
+
+.images4{
+    width: 35%;
+    height: auto;
+}
+
+.boxes4-text{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: darkslategray;
+    padding: 8px 16px;
 }
