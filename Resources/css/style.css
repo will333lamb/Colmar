@@ -1,13 +1,14 @@
 
-/* Header Section//////////////////////////////////////////// */
 
-a{
-    color: black;
+@media only screen and (min-width: 650px) {
+
+/* Header Section//////////////////////////////////////////// */
+.main-header-mobile{
+    display: none;
 }
 
-a:hover{color: darkslategray}
 
-.main-header{
+.main-header-desktop{
     background-color: white;
     position: fixed;
     width: 100%;
@@ -19,11 +20,17 @@ a:hover{color: darkslategray}
     z-index: 10;
 }
 
-.main-header span{
+.main-header-desktop span{
     display: inline-block;
     padding-top: 22px;
     font-weight: bold;
 }
+
+a{
+    color: black;
+}
+
+a:hover{color: darkslategray}
 
 .logo{
     float: left;
@@ -35,7 +42,7 @@ a:hover{color: darkslategray}
 .navigation{
     float: right;
     height: 100%;
-    margin 0 auto;
+    margin: 0.5 auto;
     padding-right: 24px;
     font-family: 'Montserrat', sans-serif;
     
@@ -55,6 +62,7 @@ a:hover{color: darkslategray}
     height: 64px;
     
 }
+
 
 
 
@@ -288,3 +296,74 @@ footer{
     padding-bottom: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+} /* End of media Query for above 650px */
+
+@media only screen and (max-width: 650px) {
+
+    /* Header section ////////////////////////////////////////////////////////////////////////////////////////*/
+    .main-header-desktop{
+        display: none;
+    }
+
+    .main-header-mobile h1{
+        display: none;
+    }
+
+    .main-header-mobile{
+        background-color: white;
+        position: fixed;
+        width: 100%;
+        height: 64px;
+        display: inline-block;
+        top: 0px; /* This is to make the header fixed at top when we scroll */
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        z-index: 10;
+    }
+    a{
+        color: black;
+    }
+    
+    a:hover{color: darkslategray}
+    
+    .logo{
+        float: left;
+        height: 32px;
+        padding: 16px 0px 16px 24px;
+        
+    }
+    
+    .navigation{
+        float: right;
+        height: 100%;
+        margin: 0.5 auto;
+        padding-right: 24px;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+    
+    .navigation a {
+        height: 100%;
+        display: table;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+    
+    .navigation a li{
+    
+        display: table-cell;
+        height: 64px;
+        
+    }
+
+    /* Header section ////////////////////////////////////////////////////////////////////////////////////////*/
+
+    
+
+    
+
+}
+
+
