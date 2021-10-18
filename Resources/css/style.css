@@ -124,6 +124,7 @@ a:hover{color: darkslategray}
 
 /* Keep practicing section ////////////////////////////////////////////////////*/
 
+
 .container2{
     width: 100%;
     height: auto;
@@ -159,16 +160,20 @@ a:hover{color: darkslategray}
     display: inline-flex;
     padding: 32px 0px 32px 24px;
     border-bottom: lightgray 3px solid;
-    width: 100%;
+    width: 97%;
 }
 
 .boxes2:hover{
     background-color: lightgray;
 }
 
-.images2{
+.images2-desktop{
     width: 35%;
     height: auto;
+}
+
+.images2-mobile{
+    display: none;
 }
 
 .boxes2-text{
@@ -409,10 +414,63 @@ footer{
         background-color: grey;
     }
 
+/* container2 - keep practicing section ////////////////////////////////////////////////////////////////////////////////////////*/
 
+.container2{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: white;
+    padding-bottom: 32px;
+}
+/*Left side*/
 
+.left-side-container2{
+    display: none;
+    width: 100%;
+    padding: 32px 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: darkslategray;
+}
+
+.left-side-container2 img{
+    width: 100%;
+    height: fit-content;
     
+}
+/* Right side*/
+
+.right-side-container2{
+    display: block;
+    width: 100%;
+    border-left: lightgray 1px solid;
 
 }
 
+.boxes2{
+    display: block;
+    padding-top: 16px;
+    border-bottom: lightgray 3px solid;
+    width: 100%;
+}
 
+.boxes2:hover{
+    background-color: lightgray;
+}
+
+.images2-desktop{
+    display: none;
+}
+
+.boxes2-text{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: darkslategray;
+    padding: 8px 16px;
+}
+
+.images2-mobile{
+    width: 100%;
+}
+
+}
