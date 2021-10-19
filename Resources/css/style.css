@@ -1,6 +1,6 @@
 
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 800px) {
 
 /* Header Section//////////////////////////////////////////// */
 .main-header-mobile{
@@ -309,7 +309,7 @@ footer{
 
 } /* End of media Query for above 650px */
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 800px) {
 
     body{
         font-family: montserrat, sans-serif;
