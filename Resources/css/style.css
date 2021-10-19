@@ -192,7 +192,7 @@ a:hover{color: darkslategray}
     text-align: center;
     font-family: 'montserrat', sans-serif;
     padding-top: 32px;
-
+    color: darkslategray;
     
 }
 
@@ -215,6 +215,7 @@ a:hover{color: darkslategray}
     width: 100%;
     
 }
+
 
 .boxes3 h3, .boxes3 h4{
     padding: 16px 16px;
@@ -490,16 +491,54 @@ footer{
     display: none;
 }
 .boxes3{
-    text-align: center;
     background-color: lightgray;
-    height: 50px;
-    padding-top: 2px;
-    margin-top: 8px;
-    margin-left: 16px;
-    margin-right: 16px;
+    height: auto;
+    
+}
+
+.boxes3 h3{
+    text-align: left;
+    padding: 16px 0 24px 16px;
 }
 
 .container3{
     text-align: center;
+    margin-bottom: 32px;
 }
+
+.boxes3:hover{
+    background-color: lightsteelblue;
+}
+
+/* container4 - Thesis exhibit section ////////////////////////////////////////////////////////////////////////////////////////*/
+
+.container4{
+    width: 100%;
+    background-color: lightgray;
+}
+
+.container4-heading{
+    text-align: center;
+}
+
+.container4 video{
+    width: 100%;
+} 
+
+.container4 h2, .container4 h3, .container4 h4, .container4 img{
+    display: none;
+}
+
+/* Footer section ////////////////////////////////////////////////////////////////////////////////////////*/
+
+.right-side-footer{
+    display: none;
+}
+
+footer{
+    padding-top: 16px;
+    margin-top: 24px;
+    padding-bottom: 16px;
+}
+
 }
